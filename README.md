@@ -24,13 +24,12 @@ Vite + React + TypeScript kullanilarak olusturulmustur.
  ```
 
  ## Ekran Goruntusu
- <img width="1915" height="981" alt="image" src="https://github.com/user-attachments/assets/3ac10e17-1a4c-4fd6-8db6-6eaff14e0567" />
+<img width="1470" height="919" alt="Ekran Resmi 2026-02-28 01 24 18" src="https://github.com/user-attachments/assets/56e45603-3d10-452b-b122-2e916bde4b41" />
 
- ###################################################################################################################################
 
  ## İkinci Hafta Test Ekranı
+<img width="1470" height="919" alt="Ekran Resmi 2026-02-28 01 27 02" src="https://github.com/user-attachments/assets/305d79ac-96a0-4f5e-bfb9-36b632a4a87a" />
 
- <img width="1231" height="695" alt="Ekran görüntüsü 2026-02-24 153540" src="https://github.com/user-attachments/assets/8ddd836c-e2e4-4d99-9659-ea5e4f1d491c" />
 
 
  
