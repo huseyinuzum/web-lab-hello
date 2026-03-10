@@ -13,7 +13,7 @@ function App() {
   }, [dark]);
 
   return (
-    <div className="antialiased text-gray-900 dark:text-gray-100 bg-white dark:bg-gray-900">
+    <div className="antialiased text-gray-900 dark:text-gray-100 bg-white dark:bg-gray-900 min-h-screen flex flex-col">
       {/* skip link */}
       <a
         href="#main-content"
@@ -22,7 +22,7 @@ function App() {
         Ana içeriğe atla
       </a>
       {/* header */}
-      <header className="sticky top-0 z-40 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700">
+      <header className="sticky top-0 z-40 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700 shadow-sm">
         <div className="max-w-6xl mx-auto px-4 py-3 flex flex-col sm:flex-row justify-between items-center gap-3">
           <div>
             <h1 className="text-xl font-bold text-blue-800 dark:text-blue-300">Hüseyin Üzüm</h1>
@@ -70,7 +70,7 @@ function App() {
         </div>
       </header>
 
-      <main id="main-content">
+      <main id="main-content" className="flex-grow container mx-auto px-4 space-y-16">
         {/* Hakkımda */}
         <section id="hakkimda" className="py-16 px-4">
           <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-8">
