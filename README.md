@@ -1,6 +1,6 @@
-# Web LAB-1 — Hello Project
+# Web LAB-1 / LAB-4 — Tailwind Portfolio
 
-Bu proje, Web Tasarımı ve Programlama dersi **LAB-1** kapsamında **Vite + React + TypeScript + Tailwind CSS** kullanılarak hazırlanmıştır.
+Bu proje, Web Tasarımı ve Programlama dersi kapsamında **Vite + React + TypeScript + Tailwind CSS** kullanılarak hazırlanmıştır. Ana hedef, modern bir portföy sayfası ve birlikte çalışılabilir bir UI Kit örneği sunmaktır.
 
 ## Geliştirici
 - **Ad Soyad:** Hüseyin Üzüm
@@ -22,15 +22,16 @@ npm install
 npm run dev
 ```
 
+## Özellikler
+- **Dark mode** (geçiş düğmesi)
+- Responsive portföy düzeni
+- UI Kit bileşenleri (Button, Input, Card, Alert)
+- Türkçe içerik ve erişilebilirlik iyileştirmeleri
+
 ## Proje Yapısı
 - `src/` içinde React bileşenleri ve sayfalar
-- `src/index.css` Tailwind CSS için temel stil tanımları
+- `src/index.css` Tailwind CSS temel stil dosyası
 - `tailwind.config.cjs` ve `postcss.config.cjs` Tailwind + PostCSS yapılandırması
-
-## Öne Çıkan Özellikler
-- Dark mode desteği (geçiş düğmesi)
-- Responsive portföy sayfası
-- UI Kit bileşenleri (Button, Input, Card, Alert)
 
 ---
 

@@ -24,9 +24,12 @@ function App() {
       {/* header */}
       <header className="sticky top-0 z-40 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700">
         <div className="max-w-6xl mx-auto px-4 py-3 flex flex-col sm:flex-row justify-between items-center gap-3">
-          <h1 className="text-xl font-bold text-blue-800 dark:text-blue-300">Ahmet Yilmaz</h1>
+          <div>
+            <h1 className="text-xl font-bold text-blue-800 dark:text-blue-300">Hüseyin Üzüm</h1>
+            <div className="text-sm text-gray-600 dark:text-gray-400">WEB LABORATUARI</div>
+          </div>
           <nav aria-label="Ana navigasyon">
-            <ul className="flex flex-wrap gap-2">
+            <ul className="flex flex-wrap space-x-4 gap-2">
               <li>
                 <a
                   href="#hakkimda"
@@ -74,7 +77,7 @@ function App() {
             <figure className="shrink-0">
               <img
                 src="https://via.placeholder.com/160"
-                alt="Ahmet Yilmaz vesikalik fotografi"
+                alt="Hüseyin Üzüm vesikalik fotografi"
                 className="w-40 h-40 rounded-full object-cover shadow-lg"
               />
             </figure>
@@ -84,9 +87,9 @@ function App() {
               </h2>
               <p className="text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">
                 Frontend geliştirici olarak modern web teknolojileriyle kullanıcı dostu
-                arayüzler oluşturuyorum.
+                arayüzler oluşturuyorum. Öğrenci No: 235541049
               </p>
-              <ul className="flex flex-wrap gap-2">
+              <ul className="flex flex-wrap gap-2 space-x-2">
                 <li className="bg-blue-800 text-white px-3 py-1 rounded-full text-sm">React</li>
                 <li className="bg-blue-800 text-white px-3 py-1 rounded-full text-sm">TypeScript</li>
                 <li className="bg-blue-800 text-white px-3 py-1 rounded-full text-sm">Tailwind</li>
@@ -190,7 +193,7 @@ function App() {
         </section>
       </main>
       <footer className="bg-gray-100 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700 text-center py-6 px-4 text-gray-500 dark:text-gray-400 text-sm">
-        <p>&copy; 2025 Ahmet Yilmaz. Tüm hakları saklıdır.</p>
+        <p>&copy; 2025 Hüseyin Üzüm. Tüm hakları saklıdır.</p>
       </footer>
     </div>
   );
