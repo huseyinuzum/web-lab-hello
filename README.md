@@ -1,35 +1,37 @@
-# Web LAB-1- Hello Project
+# Web LAB-1 — Hello Project
 
-## Hakkinda
-Bu proje, Web Tasarimi ve Programlama dersi LAB-1 kapsaminda
-Vite + React + TypeScript kullanilarak olusturulmustur.
+Bu proje, Web Tasarımı ve Programlama dersi **LAB-1** kapsamında **Vite + React + TypeScript + Tailwind CSS** kullanılarak hazırlanmıştır.
 
- ## Gelistirici
- Ad Soyad: Hüseyin Üzüm
- Ogrenci No: 235541049
+## Geliştirici
+- **Ad Soyad:** Hüseyin Üzüm
+- **Öğrenci No:** 235541049
 
- ## Kullanilan Teknolojiler
- React 18
- TypeScript
- Vite
+## Teknolojiler
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS v4
 
- ## Kurulum
-  ```bash
- npm install
- ```
+## Kurulum
+```bash
+npm install
+```
 
- ## Calistirma
- ```bash
- npm run dev
- ```
+## Geliştirme Sunucusu
+```bash
+npm run dev
+```
 
- ## Ekran Goruntusu
-<img width="1470" height="919" alt="Ekran Resmi 2026-02-28 01 24 18" src="https://github.com/user-attachments/assets/56e45603-3d10-452b-b122-2e916bde4b41" />
+## Proje Yapısı
+- `src/` içinde React bileşenleri ve sayfalar
+- `src/index.css` Tailwind CSS için temel stil tanımları
+- `tailwind.config.cjs` ve `postcss.config.cjs` Tailwind + PostCSS yapılandırması
 
+## Öne Çıkan Özellikler
+- Dark mode desteği (geçiş düğmesi)
+- Responsive portföy sayfası
+- UI Kit bileşenleri (Button, Input, Card, Alert)
 
- ## İkinci Hafta Test Ekranı
-<img width="1470" height="919" alt="Ekran Resmi 2026-02-28 01 27 02" src="https://github.com/user-attachments/assets/305d79ac-96a0-4f5e-bfb9-36b632a4a87a" />
+---
 
-
-
- 
+> Not: Bu proje root (ana) depoda yürütülmek üzere yapılandırılmıştır. `portfolio-ui-kit/` alt klasörü bağımsız bir UI Kit örneği olarak aynı repo içinde bulunmaktadır.
